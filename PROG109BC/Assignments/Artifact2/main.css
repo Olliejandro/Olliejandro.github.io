@@ -1,25 +1,25 @@
 .row{
- position:relative;
- margin-left:10%;
- margin-right:10%;
+ position: relative;
+ margin-left: 10%;
+ margin-right: 10%;
 }
 .white{
  border: 1px solid black;
- width: 10%;
+ width: 11%;
  height: 60px;
- background-color:white;
- float:left;
+ background-color: white;
+ float: left;
 }
  
 .black{
  border: 1px solid black;
- width: 10%;
+ width: 11%;
  height: 60px;
- background-color:#787878;
- float:left;
+ background-color: #787878;
+ float: left;
 }
 .clear{
-clear:both; 
+clear: both; 
 }
 
 #footer {
@@ -34,7 +34,7 @@ clear:both;
     z-index: 10;
 }
 #container {
- margin-top:20%;
+ margin-top:10%;
  margin-left:10%;
  margin-right:10%;
  margin-bottom:5%;
