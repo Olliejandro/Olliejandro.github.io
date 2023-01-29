@@ -3,11 +3,13 @@
   color: #665544;
   text-align: center;
 }
+/* Adding ID for Logo to change font Line item 4 */
 #logo{
   font-family: "DatalegreyaThin";
   font-weight: normal;
   font-style: normal;
 }
+/* Adding Background image to body Line item 3 */
 body {
   width: 90%;
   margin: 0 auto;
@@ -47,12 +49,13 @@ li {
   margin-bottom: 1em;
   background-color: #efefef;
 }
-/* Creating a color for each background --> */
+/* Creating a color for each background Line Item 1--> */
 #nav {
   background-color: green;
 }
 #feature {
   background-color: #8cc63e;
+  /* Adding Background image to Feature Line item 2 */
   background-image: url("https://images.unsplash.com/photo-1672749661202-a397d6ab6136?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ5NjQ1MDU&ixlib=rb-4.0.3&q=80");
   background-size: contain;
   background-position: right;
