@@ -1,0 +1,73 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
+#header{
+  font-family: "DatalegreyaThin";
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg");
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav,
+#feature,
+#footer {
+  margin: 1%;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+#nav,
+#footer {
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+#feature,
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
+/* Creating a color for each background --> */
+#nav {
+  background-color: green;
+}
+#feature {
+  background-color: #8cc63e;
+  background-image: url("https://images.unsplash.com/photo-1672749661202-a397d6ab6136?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQ5NjQ1MDU&ixlib=rb-4.0.3&q=80");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.column1 {
+  background-color: blue;
+}
+.column2 {
+  background-color: purple;
+}
+.column3 {
+  background-color: Red;
+  margin-right: 0%;
+}
+#footer {
+  background-color: orange;
+}
