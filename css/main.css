@@ -43,3 +43,24 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.html,
+.css {
+  padding: 10px;
+}
+.html {
+  float: left;
+  margin-left: 10px;
+  background-color: #fcf4c2;
+}
+.css {
+  float: right;
+  margin-right: 10px;
+  background-color: #f4c2fc;
+}
+.encomp {
+  overflow: hidden;
+  display: block;
+  padding: 10px;
+  background-color: #8eb8fa;
+}
