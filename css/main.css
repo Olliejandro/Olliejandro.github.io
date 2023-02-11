@@ -44,6 +44,15 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.html all{
+    width: 5%;
+    height: 5%;
+} 
+.css all{
+    width: 5%;
+    height: 5%;
+}
+
 
 div.html,
 div.css {
