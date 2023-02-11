@@ -47,7 +47,10 @@ ul.posts li {
 
 div.html,
 div.css {
+  margin: 10px 10px 10px 10px;
   padding: 10px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 div.html {
@@ -68,3 +71,10 @@ div.encomp {
   padding: 10px;
   background-color: #8eb8fa;
 }
+
+img.valdimg {
+  width: 575px;
+  overflow: hidden;
+  display: inline-block;
+}
+
