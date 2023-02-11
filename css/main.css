@@ -14,9 +14,13 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-img {
-    max-width:100%;
+.html all{
     height:auto;
+    width: 10%;
+} 
+.css all{
+    height:auto;
+    width: 10%;
 }
 
 a {
