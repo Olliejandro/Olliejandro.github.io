@@ -54,13 +54,13 @@ div.css {
 }
 
 div.html {
-  float: left;
+  float: inline-start;
   margin-left: 10px;
   background-color: #fcf4c2;
 }
 
 div.css {
-  float: right;
+  float: inline-start;
   margin-right: 10px;
   background-color: #f4c2fc;
 }
@@ -68,8 +68,9 @@ div.css {
 div.encomp {
   overflow: hidden;
   display: block;
-  padding: 10px;
+  padding: 1px;
   background-color: #8eb8fa;
+  display: inline-block;
 }
 
 img.valdimg {
