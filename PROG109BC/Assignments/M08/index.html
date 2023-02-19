@@ -2,21 +2,31 @@
 <html>
 
 <head>
-  <meta name="description" content="Week 6 - BC - Rhombus">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <title>JavaScript &amp; jQuery - Chapter 3: Functions, Methods &amp; Objects - Object Constructor</title>
+  <title>JavaScript &amp; jQuery - Chapter 5: Document Object Model - Add Element</title>
   <script defer src="script.js"></script>
   <link type="text/css" rel="stylesheet" href="main.css"/>
+  
 </head>
 
   <body>
-    <h1>TravelWorthy</h1>
-    <div id="info">
-      <h2>hotel availability</h2>
-      <div id="hotel1"></div>
-      <div id="hotel2"></div>
-      <div id="hotel3"></div>
-    </div>
-     <script defer src="script.js"></script>
-  </body>
-</html>
+  <div id="page">
+    <h1 id="header">List</h1>
+    <h2>Buy groceries</h2>
+    <ul id="todo">
+      <li id="one" class="hot"><em>fresh</em> figs</li>
+      <li id="two" class="hot">pine nuts</li>
+      <li id="three" class="hot">honey</li>
+      <li id="four">balsamic vinegar</li>
+    </ul>
+  </div>
+  <!-- Creating Text box to capture new items Line item 1-->
+  <input type = "text" id = "items">
+  <!-- Creatin button with onclick event  Line item 2-->
+  <button id = "btnAddElement" onclick ="addItem();"> Add New Item</button>
+  <!--   Line item 3-->
+  <script src="script.js"></script>
+</body>
+
+</html
