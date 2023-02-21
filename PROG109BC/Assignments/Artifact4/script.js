@@ -175,7 +175,7 @@ function validateForm(){
   
 
   // Step 4: Send error message to Div on page and Their areas
-  if (errorMessages !== null || errorMessages !== "") {
+  if (errorMessages !== ""){
     errorMessageshere += "<h3>Please Correct the following errors!</h3>";
   }
   document.getElementById("errorMessageshere").innerHTML = errorMessageshere;
@@ -193,5 +193,5 @@ function validateForm(){
   document.getElementById("errorMessagesco").innerHTML = errorMessagesco; //Country
 
   // Step 5: return status
-  return validFirstname && validLastName;
+  return validFirstname && validLastName && validEmail && validPhone && validUsername && validUserPassword && validAddress && validCity && validState && validZipcode && validCountry;
 }
