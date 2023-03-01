@@ -1,0 +1,22 @@
+.slideshow {
+	height:425px;
+	width:650px;
+	position:relative;
+	float:left;
+	margin-bottom:50px;
+	}
+
+#slideshow {  
+display: block;  
+margin-left: auto;  
+margin-right: auto;  
+border: 8px ridge red;  
+padding: 5px;  
+}  
+
+#caption {
+	font: normal 1em/1.3em arial;
+	left:0;
+	text-align:center;
+	width:90%;
+	}
