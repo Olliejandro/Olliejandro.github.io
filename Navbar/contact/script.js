@@ -17,14 +17,14 @@ function validateForm() {
   // Step 3: Do validation for Firstname Variable
   if (firstname === null || firstname === "" || firstname.length > 20) {
     errorMessages +=
-      "<p>The firstname is required and cannot be greater than 20 characters</p>";
+      "<p>The Name is required and cannot be greater than 20 characters</p>";
     errorMessagesfn +=
-      "<p>The firstname is required and cannot be greater than 20 characters</p>";
+      "<p>The Name is required and cannot be greater than 20 characters</p>";
   } else if (!letter.test(firstname)) {
     errorMessages +=
-      "<p>The firstname should only contain alphabetical characters</p>";
+      "<p>The Name should only contain alphabetical characters</p>";
     errorMessagesfn +=
-      "<p>The firstname should only contain alphabetical characters</p>";
+      "<p>The Name should only contain alphabetical characters</p>";
   } else {
     validFirstname = true;
   }
