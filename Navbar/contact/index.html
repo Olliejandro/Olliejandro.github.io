@@ -5,21 +5,27 @@ title: Contact Me
 <div class="contactme">
 Want to talk? Lets grab coffee? 
 
-<form action="../thankyou/index.html" method="get" name="myContact">
+<form method="get" name="myContact" action="../thankyou/index.html" onsubmit="return validateForm();">
 
   <!-- Collecting Name-->
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name"><br>
+  <label for="FirstName"> Name:</label>
+  <br>
+  <input type="text" id="FirstName" name="FirstName" />
+  <div id="errorMessagesfn" class="error"></div>
   <!-- Collecting email-->
-  <label for="email">Email:</label><br>
-  <input type="text" id="email" name="email">
+  <label for="EMail">Email:</label>
+  <br>
+  <input type="text" id="EMail" name="EMail" />
+  <div id="errorMessagesem" class="error"></div>
+
   <!-- Collecting Comments-->
+  <label for="Comments">Optional Comments:</label>
   <br>
-  <label for="comment">Comments:</label><br>
-  <input type="text" id="comment" name="comment">
+  <textarea cols="20" rows="1" id="Comments" name="Comments"></textarea>
   <br>
-  <br>
-  <input type="submit" value="Submit">
+  <div id="errorMessageshere" class="error"></div>
+  <div id="errorMessages" class="error"></div>
+ <input type="submit" name="submit" value="Submit">
 </form>
 	
 </div>
